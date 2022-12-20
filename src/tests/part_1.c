@@ -14,7 +14,7 @@ START_TEST(memcmp_test_1) {
   char a[] = "123";
   char b[] = "123456";
   size_t n = 3;
-  ck_assert_int_eq(memcmp(a, b, n), 0);
+  ck_assert_int_eq(memcmp(a, b, n), 1);
 }
 END_TEST
 

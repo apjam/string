@@ -16,7 +16,9 @@ int main(void) {
   //   printf("EXIT_SUCCESS");
 
   char s[200];
-  s21_sprintf(s, "text: %d", 7);
-  printf("%s", s);
+  char s2[200];
+  s21_sprintf(s, "text: %.*ld", 7);
+  sprintf(s2, "text: %d\n", 72);
+  //printf("%s", s2);
   return 0;
 }
